@@ -67,7 +67,6 @@
   line-height: 1.4;
 }
 
-
 .columna_formulario {
   flex: 1.5;
 }
@@ -122,11 +121,6 @@
   background-color: #4a2ba3;
 }
 
-
-.error {
-  border-color: #ff5252 !important;
-}
-
 .mensaje_oculto {
   display: none;
   color: #4caf50;
@@ -137,6 +131,3 @@
 .mensaje_visible {
   display: block;
 }
-
-
-
