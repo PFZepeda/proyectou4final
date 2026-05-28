@@ -1,0 +1,142 @@
+:root {
+  --moraduco: #5e39c4;
+  --gris: #f6f9ff;
+  --azul: #0f1c29;
+  --blanco: #ffffff;
+  --azul_icon: #2196f3;
+  --morado_icon: #673ab7;
+  --verde_icon: #1de9b6;
+}
+
+.seccion_contacto {
+  padding: 80px 0;
+}
+
+.contenedor_contacto {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.formu_cont {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.caja_info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.03);
+}
+
+.icono_info {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.icono_azul {
+  background-color: var(--azul_icon);
+}
+
+.icono_morado {
+  background-color: var(--morado_icon);
+}
+
+.icono_verde {
+  background-color: var(--verde_icon);
+}
+
+.texto_info p {
+  margin: 0;
+  font-size: 15px;
+  color: #666;
+  line-height: 1.4;
+}
+
+
+.columna_formulario {
+  flex: 1.5;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fila_formulario {
+  display: flex;
+  gap: 20px;
+}
+
+.input_formulario,
+.textarea_formulario {
+  flex: 1;
+  padding: 15px 20px;
+  border: 1px solid #eee;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input_formulario:focus,
+.textarea_formulario:focus {
+  border-color: var(--moraduco);
+}
+
+.textarea_formulario {
+  height: 180px;
+  resize: none;
+}
+
+.boton_enviar {
+  align-self: flex-start;
+  padding: 15px 40px;
+  background-color: var(--moraduco);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.boton_enviar:hover {
+  background-color: #4a2ba3;
+}
+
+
+.error {
+  border-color: #ff5252 !important;
+}
+
+.mensaje_oculto {
+  display: none;
+  color: #4caf50;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.mensaje_visible {
+  display: block;
+}
+
+
+

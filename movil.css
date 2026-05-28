@@ -1,0 +1,275 @@
+
+
+@media (max-width: 435px) {
+
+  
+  .contactos {
+    display: none;
+  }
+
+  
+  .encabezado {
+    position: relative;
+  }
+
+  .boton_menu {
+    display: block;
+    color: var(--azul);
+    font-size: 30px;
+    margin-right: 20px;
+  }
+
+  .encabezado_opciones {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 10px 20px 20px;
+    z-index: 777;
+    border-top: 1px solid #eee;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+  }
+
+  .menu li {
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .menu a {
+    display: block;
+    padding: 12px 0;
+    font-size: 15px;
+  }
+
+  .encabezado_icons {
+    margin-top: 15px;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+
+  
+  .hero {
+    padding: 40px 15px;
+  }
+
+  .hero_contenido {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  
+  .hero_texto {
+    max-width: 100%;
+    order: 1;
+  }
+
+  .hero_titulo {
+    font-size: 28px;
+  }
+
+  .hero_imagen {
+    order: 2;
+    width: 100%;
+  }
+
+  .hero_imagen .rslides {
+    width: 100%;
+    margin: 0;
+  }
+
+  
+  .galeria_prim {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 0 15px;
+    gap: 15px;
+  }
+
+  .galeria_prim article {
+    width: 100%;
+  }
+
+  .galeria_prim figure {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+  }
+
+  .galeria_prim figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .info {
+    bottom: 0;
+    width: 100%;
+  }
+
+  
+  .vid {
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 50px;
+  }
+
+  .video {
+    max-width: 100%;
+    height: 220px;
+  }
+
+  .vid>img {
+    display: none;
+  }
+
+  .vid_gal {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .vid_gal article {
+    width: 100%;
+  }
+
+  
+  .contenedor_galeria_hunt {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    height: auto;
+  }
+
+  .foto_galeria {
+    height: 280px;
+  }
+
+  .foto_galeria.foto_destacada {
+    grid-column: span 1;
+    grid-row: span 1;
+    height: 280px;
+  }
+
+  
+  .seccion_precios {
+    padding: 40px 15px;
+  }
+
+  .imagen_decorativa {
+    display: none;
+  }
+
+  .contenedor_precios {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .tarjeta_precio {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .tarjeta_precio.destacado {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  
+  .footer_contenido {
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  .insta_grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    overflow: visible;
+  }
+
+  .insta_grid figure,
+  .insta_grid figure img {
+    width: 100%;
+    height: 90px;
+  }
+
+  .insta_grid figure {
+    overflow: visible;
+  }
+
+  
+  .hero_secciones {
+    height: 200px;
+  }
+
+  .hero_secciones_texto h2 {
+    font-size: 26px;
+  }
+
+  
+  .tienda {
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+
+  .tienda_items {
+    width: 100%;
+  }
+
+  .item_datos {
+    width: 100%;
+  }
+
+  .contenedor_tienda {
+    flex-wrap: wrap;
+  }
+
+  .barra_lateral {
+    width: 100%;
+  }
+
+  .seccion_tienda {
+    padding: 0 15px;
+  }
+
+  .Galeria_productos {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  
+  .contenedor_servicios_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contenedor_servicios_flex {
+    flex-direction: column;
+  }
+
+  
+  .contenedor_contacto {
+    flex-direction: column;
+  }
+
+  .columna_formulario, .formu_cont {
+    width: 100%;
+  }
+
+  .fila_formulario {
+    flex-direction: column;
+  }
+
+  .mapa iframe {
+    height: 250px;
+  }
+
+}
