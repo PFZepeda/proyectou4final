@@ -121,13 +121,6 @@
   background-color: #4a2ba3;
 }
 
-.mensaje_oculto {
-  display: none;
-  color: #4caf50;
-  font-size: 14px;
-  margin-top: 10px;
-}
-
 .mensaje_visible {
   display: block;
 }
